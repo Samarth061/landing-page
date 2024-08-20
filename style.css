@@ -6,11 +6,15 @@ body{
     
 }
 
+/* ==========================================================
+   Header Styles
+   ========================================================== */
 .header{
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 
     top: 0;
     left: 0;
@@ -37,6 +41,9 @@ body{
     color: #e5e7eb;
 }
 
+/* ==========================================================
+   Description
+   ========================================================== */
 
 .description{
     display: flex;
@@ -45,7 +52,7 @@ body{
     background-color: #1F2937;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 20px;
+    height: 200px;
 
 }
 
@@ -79,7 +86,55 @@ body{
 }
 
 .right img{
-    height: 200px;
-    width: 400px;
+    height: 180px;
+    width: 360px;
+}
+
+/* ==========================================================
+   Information
+   ========================================================== */
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 5px;    
+}
+
+.one,.two,.three,.four{
+    display: flex;
+    flex: 1 1 auto;  
+    flex-direction: column;
+    
+    text-wrap: wrap;
+    width:150px;
+    
+}
+
+.images{
+    display: flex;
+    flex:1 1 auto;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images div{
+    text-align: center;
+    font-size: 10px;
+}
+
+.images img{
+    width: auto;
+    height: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
